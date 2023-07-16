@@ -8,12 +8,12 @@
 
 @font-face {
     font-family: 'HankenGrotesk-Medium';
-    src: url('/assets/fonts/static/HankenGrotesk-ExtraBold.ttf');
+    src: url('./HankenGrotesk-ExtraBold.ttf');
 }
 
 @font-face {
     font-family: 'HankenGrotesk-VariableFont_wght';
-    src: url('/assets/fonts/HankenGrotesk-VariableFont_wght.ttf');
+    src: url('./HankenGrotesk-VariableFont_wght.ttf');
         
 }
 
