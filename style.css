@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'HankenGrotesk-VariableFont_wght';
+}
+
+
+@font-face {
+    font-family: 'HankenGrotesk-Medium';
+    src: url('/assets/fonts/static/HankenGrotesk-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'HankenGrotesk-VariableFont_wght';
+    src: url('/assets/fonts/HankenGrotesk-VariableFont_wght.ttf');
+        
+}
+
+.top{
+    text-align: center;
+    width:60%;
+    font-size: 18px;
+    margin-left: 50px;
+    color:#ccc;
+}
+
+.right h2{
+    color: #474343;
+}
+
+.wrapper .right{
+    background: #fff;
+    color: #0000;
+}
+
+.images-left .reaction {
+    color: #862039;
+    display: flex;
+    background: rgba(252, 205, 215, 0.4);
+    font-weight: 700;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+.images-left .reaction .R {
+    margin: 0 120px 0 10px;
+}
+.images-left .memory .M {
+    margin: 0 120px 0 10px;
+}
+
+.images-left .memory{
+    background: rgba(247, 233, 153, 0.4);
+    color: #da8f05f6;
+    display: flex;
+    font-weight: 700;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.images-left .verbal .V {
+    margin: 0 130px 0 10px;
+}
+
+.images-left .visual .V2 {
+    margin: 0 130px 0 10px;
+}
+
+
+
+.images-left .verbal {
+    color: #15916b;
+    background: rgba(120, 207, 164, 0.4);
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.images-left .visual {
+    color: #171591;
+    background: rgba(120, 129, 207, 0.4);
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+
+.button button{
+    width: 100%;
+    background: linear-gradient(180deg, #8369e4, #102fbb);
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    padding: 15px 20px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+
+.wrapper{
+    
+    display: flex;
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.last{
+    margin-top: 25px;
+}
+
+.bottom{
+    font-family: 'HankenGrotesk-VariableFont_wght';
+
+}
+
+.random{
+    margin-top: 10px;
+    line-height: 25px;
+    color: #ccc;
+}
+
+.wrapper .left{
+    
+    width:320px;
+    color: #fff;
+    background: linear-gradient(160deg, #8369e4, #102fbb);
+    border-radius: 25px;
+    padding: 30px;
+    text-align: center;
+}
+
+
+.wrapper .right{
+    width: 360px;
+    background: #fff;
+    color: #0000;
+    border-radius: 25px;
+    padding: 30px;
+    box-shadow: 20px 13px 22px 1px rgba(216, 218, 252, 0.4);
+}
+
+.center{
+    padding: 30px 0 20px;
+    margin-top: 30px;
+    margin-left: 20%;
+    background: linear-gradient(160deg, #361a99, #0000);
+    border-radius: 50%;
+    width: 60%;
+    height: 40%;
+    justify-content: center;
+   
+
+}
+
+.hundred{
+    margin-bottom: 30px;
+    color: #ccc;
+}
+
+.number{
+    margin-top: 0px;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+@media(max-width:480px){
+    
+    .wrapper{
+        position: absolute;
+        display: table-row;
+        
+
+    }
+    .wrapper .left{
+        margin-top: -130px;
+        width: 100%;
+        border-radius: 0 0 25px 25px;
+        justify-content: center;
+        
+    }
+
+    .top{
+        text-align: center;
+        width:60%;
+        font-size: 18px;
+        margin-left: 60px;
+        color:#ccc;
+    }
+
+    .hundred{
+        margin-bottom: 30px;
+        color: #ccc;
+    }
+    
+    .number{
+        margin-top: 0px;
+        padding-top: 20px;
+        font-size: 60px;
+        font-weight: 800;
+    }
+
+    .center{
+        padding: 30px 0 20px;
+        margin-top: 30px;
+        margin-left: 18%;
+        background: linear-gradient(160deg, #361a99, #0000);
+        border-radius: 50%;
+        width: 65%;
+        height: 20%;
+        justify-content: center;
+       
+    
+    }
+
+    .wrapper .right{
+        width: 360px;
+        background: #fff;
+        color: #0000;
+        border-radius: none;
+        padding: 30px;
+        box-shadow: none;
+    }
+ 
+    
+}
