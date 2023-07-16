@@ -8,12 +8,12 @@
 
 @font-face {
     font-family: 'HankenGrotesk-Medium';
-    src: url('/assets/fonts/static/HankenGrotesk-ExtraBold.ttf');
+    src: url('./HankenGrotesk-ExtraBold.ttf');
 }
 
 @font-face {
     font-family: 'HankenGrotesk-VariableFont_wght';
-    src: url('/assets/fonts/HankenGrotesk-VariableFont_wght.ttf');
+    src: url('./HankenGrotesk-VariableFont_wght.ttf');
         
 }
 
@@ -29,6 +29,10 @@
     color: #474343;
 }
 
+.wrapper .right{
+    background: #fff;
+    color: #0000;
+}
 
 .images-left .reaction {
     color: #862039;
@@ -42,10 +46,10 @@
 
 
 .images-left .reaction .R {
-    margin: 0 150px 0 10px;
+    margin: 0 120px 0 10px;
 }
 .images-left .memory .M {
-    margin: 0 150px 0 10px;
+    margin: 0 120px 0 10px;
 }
 
 .images-left .memory{
@@ -59,11 +63,11 @@
 }
 
 .images-left .verbal .V {
-    margin: 0 160px 0 10px;
+    margin: 0 130px 0 10px;
 }
 
 .images-left .visual .V2 {
-    margin: 0 165px 0 10px;
+    margin: 0 130px 0 10px;
 }
 
 
@@ -141,7 +145,7 @@
 
 
 .wrapper .right{
-    width: 400px;
+    width: 360px;
     background: #fff;
     color: #0000;
     border-radius: 25px;
@@ -223,6 +227,7 @@
     }
 
     .wrapper .right{
+        width: 360px;
         background: #fff;
         color: #0000;
         border-radius: none;
